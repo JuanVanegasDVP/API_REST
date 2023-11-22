@@ -1,0 +1,30 @@
+###
+POST http://localhost:3000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Nikola Toyota", 
+    "age": 40,
+    "email": "nikolatoyota@gmail.com"
+}
+
+
+###
+GET http://localhost:3000/api/users/655cf7e68857eed50db97a17 HTTP/1.1
+
+
+###
+DELETE  http://localhost:3000/api/users/655cf7e68857eed50db97a17 HTTP/1.1
+
+###
+PUT http://localhost:3000/api/users/655e40e0974800b7191dc031 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Nikola Vanegas",
+    "age": 50,
+    "email": "johnasn@gmail.com"
+}
+
+
+
